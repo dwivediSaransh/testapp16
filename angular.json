@@ -17,6 +17,9 @@
         "build": {
           "builder": "@angular-builders/custom-webpack:browser",
           "options": {
+            "customWebpackConfig":{
+              "path": "./webpack.config.js"
+           },
             "indexTransform": "./index-html-transform.js",
             "outputPath": "dist/test-app",
             "index": "src/index.html",
