@@ -16,12 +16,18 @@ module.exports = {
                     targets: {
                       // Criteria for selecting browsers. See https://github.com/browserslist/browserslist
                       browsers: ['> 0.25%', ' last 2 versions', ' Firefox ESR', ' not dead', ' IE 11']
-                    }
+                      
+                    },
                   }]
+                ],
+                plugins:[
+                  '@babel/transform-es2015-arrow-functions',
+                  '@babel/plugin-proposal-class-properties'
                 ]
               }
             }
           }
         ]
+        
       }
 };
