@@ -1,3 +1,3 @@
-//module.exports = {
-   // entry: ["@babel/polyfill", "./app/js"],
- // };
+module.exports = {
+    entry: ["@babel/polyfill", "./src/main.ts"],
+  };
