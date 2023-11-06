@@ -6,10 +6,12 @@
           "useBuiltIns": "usage",
           "corejs": "3.22"
         },
-        "targets", {
-          "safari": "5"
+        "targets",{
+          "safari":"5"
         }
       ]
+      
     ]
+    
     
   }
