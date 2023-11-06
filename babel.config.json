@@ -4,7 +4,7 @@
         "@babel/preset-env",
         {
           "useBuiltIns": "usage",
-          "corejs": "3.22",
+          "corejs": "3.33",
           "targets":{
             "safari":"5"
           }
@@ -12,10 +12,10 @@
       ]     
     ],
     "plugins": [
-      "@babel/plugin-transform-flow-strip-types",
-      "@babel/plugin-proposal-class-properties",
-      "@babel/plugin-transform-regenerator",
-      "@babel/plugin-transform-async-to-generator",
-      "@babel/plugin-transform-runtime"
+      //"@babel/plugin-transform-flow-strip-types",
+      //"@babel/plugin-proposal-class-properties",
+      //"@babel/plugin-transform-regenerator",
+      //"@babel/plugin-transform-async-to-generator",
+      //"@babel/plugin-transform-runtime"
     ]
 }
