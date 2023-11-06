@@ -14,7 +14,7 @@
     "plugins": [
       //"@babel/plugin-transform-flow-strip-types",
       //"@babel/plugin-proposal-class-properties",
-      //"@babel/plugin-transform-regenerator",
+      "@babel/plugin-transform-regenerator"
       //"@babel/plugin-transform-async-to-generator",
       //"@babel/plugin-transform-runtime"
     ]
