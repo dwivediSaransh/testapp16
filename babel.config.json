@@ -4,14 +4,9 @@
         "@babel/preset-env",
         {
           "useBuiltIns": "usage",
-          "corejs": "3.22"
-        },
-        "targets",{
-          "safari":"5"
+          "corejs": "3.22",
+          "targets":"> 0.25%, not dead"
         }
-      ]
-      
+      ]     
     ]
-    
-    
-  }
+}
