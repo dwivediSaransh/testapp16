@@ -25,13 +25,8 @@
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
-              "zone.js",
-              "core-js/full",
-              "core-js/stable",
-              "core-js/es",
-              "promise-polyfill/src/polyfill",
-              "core-js/modules/esnext.set.map",
-              "core-js/full/set/map"
+              "zone.js"
+              
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "less",
