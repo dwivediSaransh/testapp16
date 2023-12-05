@@ -6,7 +6,7 @@
           "useBuiltIns": "entry",
           "corejs": "3.33",
           "targets":{
-            "safari":"5"
+            "safari":">=10"
           }
         }
       ]     
